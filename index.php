@@ -2,31 +2,31 @@
 
     include("functions.php");
 
-    include("views/header.php");
+    include("header.php");
 
     if ($_GET['page'] == 'timeline') {
         
-        include("views/timeline.php");
+        include("timeline.php");
         
     } else if ($_GET['page'] == 'yourtweets') {
         
-        include("views/yourtweets.php");
+        include("yourtweets.php");
         
     } else if ($_GET['page'] == 'search') {
         
-        include("views/search.php");
+        include("search.php");
         
     } else if ($_GET['page'] == 'publicprofiles') {
         
-        include("views/publicprofiles.php");
+        include("publicprofiles.php");
         
     } else {
 
-        include("views/home.php");
+        include("home.php");
         
     }
         
-    include("views/footer.php");
+    include("footer.php");
 
 
 ?>
